@@ -1,0 +1,7 @@
+a=int(input("책 값은?"))
+b=int(input("할인율은 ?"))
+c=int(input("배송료는 ?"))
+print("책 값:%d"%a)
+print(f"할인율:{str(b)}원")
+print("배송료:"+str(c)+"원")
+print("결제 금액:%d원"%(a-a*b/100+c))
